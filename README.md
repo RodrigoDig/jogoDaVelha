@@ -1,18 +1,23 @@
-## Getting Started
+# 🪨 Pedra, Papel e Tesoura - Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Jogo de Pedra, Papel e Tesoura desenvolvido em Java, executado diretamente no terminal.
 
-## Folder Structure
+## 🚀 Funcionalidades
 
-The workspace contains two folders by default, where:
+- Entrada de jogada pelo usuário
+- Validação de jogadas inválidas
+- Jogada aleatória da máquina
+- Lógica de vitória, derrota ou empate
+- Exibição clara do resultado
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🛠️ Tecnologias
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java 8+
+- Scanner (`java.util.Scanner`)
+- Random (`java.util.Random`)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 📦 Como executar
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Compile o código:
+```bash
+javac App.java
